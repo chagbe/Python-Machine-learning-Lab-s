@@ -25,7 +25,7 @@ To explore this project please download the dataset (books.csv) and the python n
 
 Pandas,Numpy,Matplotlib,seaborn,sklearn
 
-Jupyter Notebook File Descriptions
+**Jupyter Notebook File Descriptions**
 
 **Data cleaning**
 
