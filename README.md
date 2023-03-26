@@ -13,7 +13,7 @@ Yann M'POUE
 
 **objective**
 
-The objective of this project is to predict the book's rating thanks to the different variables of our database. We followed several steps to reach this goal.
+The Goal and main objective of this project is to predict the average ratings given to any book using the Dataset at our disposal, getting rid of uneccessary or irrelevant variables and keeping the variables having the most impact on the ratings. Many steps were followed for the realization of the targeted task.
 
 Installation
 
@@ -31,11 +31,11 @@ Pandas,Numpy,Matplotlib,seaborn,sklearn
 
 In a first step we cleaned the data:
 
--Checking of null values
+Checking of null values
 
--Checking the dates that do not respect the correct format or that have outliers
+Checking the dates that do not respect the correct format or that have outliers
 
--Checking of numeric fields that have alphabetic fields
+Checking of numeric fields that have alphabetic fields
 
 **Feature selection :**
 
@@ -44,3 +44,11 @@ Once our database is clean we proceed to the selection of our variables. We then
 **Data explanatory:**
 
 Our data being clean and our variables selected, we have therefore proceeded to the exploitation of our data through descriptive statistics thanks to tables and graphs. This part allowed us to deepen our knowledge about the data and to prepare how we could predict the variable of interest.
+
+
+**Conclusion**
+
+
+This work allowed us to better understand the world of data. One of the most interesting parts was the data mining. This part was very important because it allowed us to better understand the data but especially to ask ourselves the question how to build a story with the data at hand, what features to select and how to go on with them in our prediction. Correlation study was key here as we were looking for the most relevant variable compared to the targeted variable( the rating of the books).
+The prediction part was the most determining, it showed us that we have to try several models to find the right one. But it also allowed us to better understand the machine learning algorithms. After having tested three algorithms, we opted for the most efficient and accurate one appearing to be The Random Forest with the lowest RMSE also.
+To conclude this work was also an opportunity to work in group, to discuss, to confront our ideas and to set up an organization to reach the desired objectives. A combination of capabilities and knowledge, key to success of a grouped enterprise.
